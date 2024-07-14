@@ -446,23 +446,358 @@ header .nav-two .buy-icon div {
   width: 100px;
   height: 100px;
 }
-/* .delivery-service h2 {
+.delivery-service .Howto {
   font-size: 35px;
   margin-left: 115px;
-} */
-/* .delivery-service .service {
+}
+.delivery-service .service {
   text-decoration: underline;
   text-decoration-color: rgba(255, 144, 43, 1);
-} */
-.colour-of-dtls {
-  border: 10px solid blue;
 }
 
 .delivery-service {
-  border: 10px solid red;
-  padding-top: 200px;
+  padding-top: 500px;
 }
 main {
-  border: 2px solid black;
   height: auto;
+}
+.delivery-service .cards {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+}
+
+.delivery-service .cards .card {
+  text-align: center;
+  width: 20%;
+}
+main .Aboutus {
+  position: relative;
+  margin-top: 270px;
+  display: flex;
+  height: 500px;
+  justify-content: space-around;
+  align-items: center;
+
+  background-image: url(img/bg-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .Aboutus .pictue-of-coffe-cup div {
+  position: absolute;
+  bottom: 100px;
+  background-color: rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  height: 519px;
+}
+main .Aboutus .pictue-of-coffe-cup div img {
+  padding: 10px;
+}
+main .Aboutus .Aboutus-texts {
+  width: 30%;
+  height: 320px;
+}
+main .Aboutus .Aboutus-texts .main-text {
+  font-size: 30px;
+  font-weight: 600;
+}
+main .Aboutus .Aboutus-texts .main-text .c-orenge {
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 144, 43, 1);
+}
+main .Aboutus .Aboutus-texts .texts-ii h2 {
+  font-size: 25px;
+  width: 60%;
+  font-weight: 500;
+}
+main .Aboutus .Aboutus-texts a {
+  color: aliceblue;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(47, 33, 5, 1);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.colour-of-dtls .popular-now .cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.colour-of-dtls .popular-now h2 span {
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 144, 43, 1);
+}
+.colour-of-dtls .popular-now .card-i {
+  /* border: 2px solid rgb(249, 100, 100); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 6px 19px 19px rgba(0, 0, 0, 0.321);
+  background-color: rgba(255, 255, 255, 0.547);
+  width: 25%;
+  height: 440px;
+  border-radius: 20px;
+}
+.colour-of-dtls .popular-now .card-i article {
+  width: 90%;
+  height: 390px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+.colour-of-dtls .popular-now .card-i article .picture {
+  background-image: url(img/unsplash_RFHFV7lVQBY.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+
+  border-radius: 15px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.colour-of-dtls .popular-now .card-i article .div-i {
+  display: flex;
+  justify-content: space-around;
+}
+.colour-of-dtls .popular-now .card-i article .div-i h2 {
+  font-size: 25px;
+  text-align: center;
+}
+main .Special-menu .line-no-i {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+main .Special-menu .main-textt {
+  font-size: 35px;
+  margin-left: 100px;
+}
+main .Special-menu .main-textt .txt-dco {
+  text-decoration-line: underline;
+  text-decoration-color: rgba(255, 144, 43, 1);
+}
+main .Special-menu .line-no-i .card {
+  position: relative;
+  width: 18%;
+  border-radius: 20px;
+  box-shadow: 7px 6px 4px rgba(29, 29, 29, 0.335);
+  padding: 10px;
+}
+main .Special-menu .line-no-i .card .div-i {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  background-color: rgba(255, 255, 255, 0.571);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24%;
+  height: 40px;
+  border-radius: 50px;
+}
+main .Special-menu .line-no-i .card .div-i div {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-radius: 50px;
+  height: 30px;
+}
+main .Special-menu .line-no-i .card .coffeeimg {
+  width: 308px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+main .Special-menu .line-no-i .card article {
+  display: flex;
+  justify-content: space-around;
+}
+main .Special-menu .line-no-i .card .div-ii {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .Special-menu .line-no-i .card .div-ii p {
+  color: rgba(126, 125, 122, 1);
+  width: 60%;
+  margin: 0px;
+}
+
+main .Special-menu .line-no-i .card .div-ii img {
+  width: 75px;
+}
+
+main .Special-menu .line-no-ii {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+main .Special-menu .line-no-ii .card {
+  position: relative;
+  width: 18%;
+  border-radius: 20px;
+  box-shadow: 7px 6px 4px rgba(29, 29, 29, 0.335);
+  padding: 10px;
+}
+main .Special-menu .line-no-ii .card .div-i {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  background-color: rgba(255, 255, 255, 0.571);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24%;
+  height: 40px;
+  border-radius: 50px;
+}
+main .Special-menu .line-no-ii .card .div-i div {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-radius: 50px;
+  height: 30px;
+}
+main .Special-menu .line-no-ii .card .coffeeimg {
+  width: 308px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+main .Special-menu .line-no-ii .card article {
+  display: flex;
+  justify-content: space-around;
+}
+main .Special-menu .line-no-ii .card .div-ii {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .Special-menu .line-no-ii .card .div-ii p {
+  color: rgba(126, 125, 122, 1);
+  width: 60%;
+  margin: 0px;
+}
+
+main .Special-menu .line-no-ii .card .div-ii img {
+  width: 75px;
+}
+main .What-they-say-about-us {
+  display: flex;
+  align-items: center;
+  margin-top: 300px;
+  background-image: url(img/bg-img-2.png);
+  background-size: cover 70%;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+main .What-they-say-about-us .texts {
+  width: 25%;
+  margin-left: 100px;
+  height: 300px;
+}
+main .What-they-say-about-us .texts h2 {
+  font-size: 35px;
+}
+
+main .What-they-say-about-us .texts p {
+  width: 64%;
+  font-size: 18px;
+}
+main .What-they-say-about-us .profiles {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 75%;
+}
+main .What-they-say-about-us .profiles .profile {
+  position: relative;
+  width: 25%;
+}
+main .What-they-say-about-us .profiles .profile img {
+  width: 80%;
+}
+
+main .What-they-say-about-us .profiles .profile div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 30px;
+  left: 55px;
+  background-color: rgba(255, 203, 124, 0.557);
+  border-radius: 15px;
+  padding: 20px;
+  width: 80%;
+  height: 90px;
+}
+main .What-they-say-about-us .profiles .profile div article {
+  background-color: rgba(255, 203, 124, 1);
+  border-radius: 15px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+main .What-they-say-about-us .profiles .profile div article h2 {
+  margin: 0px;
+}
+main .What-they-say-about-us .profiles .profile div article p {
+  margin: 0px;
+  font-size: 16px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+footer .last {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 63%;
+  background-image: url(img/last-bgi.png);
+  height: 400px;
+  background-repeat: no-repeat;
+}
+footer .last h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 60px;
+  color: white;
+  text-align: center;
+}
+footer .last div {
+  position: relative;
+  margin: 0 auto;
+
+  width: 40%;
+  height: 40px;
+}
+
+footer .last div input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  text-align: center;
+  border-radius: 20px;
+}
+footer .last div button {
+  position: absolute;
+  border: none;
+  border-radius: 30px;
+  bottom: 3px;
+  right: 3px;
+  width: 28%;
+  height: 80%;
+  background-color: rgba(47, 33, 5, 1);
+  color: white;
 }
